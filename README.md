@@ -9,5 +9,9 @@ ls
 
 hadoop fs ls command <br>
 ```
+hdfs dfs -ls /
+```
+OR <br>
+```
 hadoop fs -ls /
 ```
