@@ -27,6 +27,9 @@ vi test.txt
 ```
 hadoop fs -copyFromLocal test.txt /user
 ```
+<h3> Delete file</h3>
+
+```
 
 
 
