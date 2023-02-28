@@ -1,6 +1,6 @@
 # Hadoop_commands
 <h3>ls command</h3>
-The ls command in Hadoop shows the list of files/contents in a specified directory, i.e., path<br>
+The ls command listing contents inside a directory<br>
 
 ```
 ls
