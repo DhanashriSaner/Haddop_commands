@@ -58,7 +58,42 @@ mkdir xyz
 ```
 hadoop fs -mkdir /abc
 ```
+<br>
+<br>
 
+<h1> Hadoop wordcount program </h1>
 
+<img align="center" alt="Hadoop_wordcount_program" width = 300 src="https://user-images.githubusercontent.com/88526990/221773883-dd6e1b53-28e0-43dc-b482-d6e1961cf226.jpg"><br>
 
+we want to perform wordcount on the above given words
+<br>
+<h4> Make the Directory named as 'wordcount' in HDFS </h4>
+
+```
+hadoop fs -mkdir wordcount/
+```
+
+<h4> Make the Sub-Directory namely 'input' and 'output inside the 'wordcount' Directory in HDFS </h4>
+
+```
+hadoop fs -mkdir wordcount/input
+```
+<h4>Output sub-directory</h4>
+
+```
+hadoop fs -mkdir wordcount/output
+```
+
+<h4> Make the words.txt file in local system </h4>
+
+```
+vi words.txt
+```
+<br>
+
+<h4> Place the file 'words.txt' from local system into HDFS input sub-directory using following put command </h4>
+
+```
+hadoop fs -put words.txt /wordcount/input 
+```
 
