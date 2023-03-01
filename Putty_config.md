@@ -13,7 +13,7 @@ Inside the **eth1** type the inet addr: 192.168.56.101
 
 **Step 4)** login as : **cloudera**
 <br>
-            password : **cloudera**
+            password : **************
 <br>
 <br>
 <img align="center" alt="PuTTY_login" width = 500 src="https://user-images.githubusercontent.com/88526990/221785478-b1d87b3a-6f71-443c-a612-83659d4f30cf.jpg"><br><br>
